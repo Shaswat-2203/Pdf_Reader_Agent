@@ -1,12 +1,10 @@
 import streamlit as st
-from pathlib import Path
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_qdrant import QdrantVectorStore
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import google.generativeai as genai
 import tempfile
-import os
 
 st.set_page_config(page_title="AI PDF Chatbot", layout="wide")
 
