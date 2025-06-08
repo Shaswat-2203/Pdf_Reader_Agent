@@ -1,0 +1,7 @@
+langchain_community
+langchain_google_genai
+langchain_qdrant
+langchain_text_splitters
+google.generativeai
+streamlit
+tempfile
