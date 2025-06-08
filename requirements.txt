@@ -4,3 +4,4 @@ langchain_qdrant
 langchain_text_splitters
 google.generativeai
 streamlit
+pypdf
